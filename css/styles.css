@@ -1,0 +1,447 @@
+body {
+  font-size: 16px;
+  color: #F0F8FF;
+  background-color: grey;
+  font-family: 'Oxygen', sans-serif;
+  
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:#F5F5F5;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color:  black;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #080808;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+.intro{
+  font-family: 'Lora', serif;
+  color:  white;
+  font-size: 4vw;
+ 
+  font-style: italic;
+  text-align: center;
+
+}
+.container-img {
+  margin-top: 150px;
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.myImage{
+  
+  margin-top: 150px;
+  padding-bottom: 50px;
+  border-radius: 30%;
+}
+.whatTo{
+  margin-top: 150px;
+
+  color: white;
+  font-size: 2vw;
+   text-align: justify;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+
+}
+.whatTo h1{
+  font-size: 3vw;
+}
+.centered {
+  position: absolute;
+  top: 10%;
+ 
+  left: 20%;
+
+  
+
+}
+.awards{
+text-align: center;
+  font-size: 1.5vw;
+ 
+  padding: 40px;
+}
+.speech1{
+  margin-top: 150px;
+  background-color: white;
+  color: black;
+  font-size: 2vw;
+   text-align: center;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.ba{
+ 
+  padding: 100px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+@font-face {
+font-family: 'Glyphicons Halflings';
+src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+
+ 
+
+}
+#nav-list {
+  margin-top: 10px;
+  font-size: 20px;
+}
+#nav-list a {
+  color:#080808;
+  text-align: center;
+
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#call-btn a{
+  color: #f6b319;;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: : #f6b319;
+  width: 100%;
+
+}
+.Education{
+
+  background-color:white;
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 40px;
+    }
+
+.footer{
+  background-color: white;
+  color: black;
+  font-size: 1.5vw;
+  padding: 50px;
+  margin-top:100px;
+}
+
+.panel-footer{
+  background-color: black;
+
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#testimonials{
+  font-style: italic;
+  font-size: 0.85em;
+}
+/* MENU CATEGORIES PAGE */
+
+/* END MENU CATEGORIES PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+   .container .jumbotron {
+    background: url('../images/me.jpg') no-repeat;
+    height: 675px;
+    border: 1px solid  #f6b319;
+
+  }
+
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+
+  /* End Header */
+  .container .jumbotron {
+    background: url('../images/me.jpg') no-repeat;
+    height: 558px;
+    border: 1px solid  #f6b319;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Home Page */
+    #hi{
+    font-size: 5vw;
+  }
+  .container .jumbotron {
+    background: url('../images/me.jpg') no-repeat;
+    height: 432px;
+    border: 1px solid  #f6b319;
+  }
+  
+  /* End Home Page */
+
+}
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand{
+    height:50px;
+    
+
+
+  }
+  #hi{
+    font-size: 5vw;
+  }
+   #speech{
+    font-size: 20px;
+  
+ }
+ .Education{
+  font-size: 3vw;
+
+ }
+ .myImage{
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+
+ }
+ .speech1{
+  margin-top: 50px;
+  font-size: 3.5vw;
+  margin-top: 50px;
+
+}
+.whatTo{
+   font-size: 3vw;
+   margin-top: 50px;
+  }
+  .whatTo h1{
+   font-size: 4vw;
+   margin-top: 50px;
+  }
+
+
+
+  .navbar-brand h1{
+    font-size: 6vw;
+  }
+
+   #collapsable-nav a span{
+    margin-right: 5px;
+   }
+ 
+ 
+  .panel-footer div.row{
+  text-align: center;
+  }
+   .panel-footer hr{
+  width: 50%;
+  }
+  .container-img{
+    margin-top: 50px;
+    margin-bottom: :50px;
+  }
+  .centered {
+  position: absolute;
+  top: 10%;
+ 
+  left: 20%;
+  
+
+}
+  .intro{
+  font-family: 'Lora', serif;
+  color:  white;
+  font-size: 6vw;
+ 
+  font-style: italic;
+  text-align: center;
+
+}
+.awards{
+text-align: center;
+  font-size: 3.5vw;
+ 
+}
+.footer{
+  background-color: white;
+  color: black;
+  font-size: 3.5vw;
+}
+
+
+
+}
+  
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
