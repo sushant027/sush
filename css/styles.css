@@ -49,8 +49,9 @@ body {
   color:  white;
   font-size: 4vw;
  
-  font-style: italic;
-  text-align: center;
+  
+  text-align: left;
+  
 
 }
 .container-img {
@@ -82,18 +83,27 @@ body {
 }
 .centered {
   position: absolute;
-  top: 10%;
+  top: 35%;
  
-  left: 20%;
+  left: 55%;
+  text-align:   left; 
 
   
 
 }
+.awards li{
+  padding:  10px;
+}
 .awards{
-text-align: center;
+
   font-size: 1.5vw;
  
   padding: 40px;
+   line-height: 150%;
+}
+.insta-icon: hover{
+  color:  red;
+
 }
 .speech1{
   margin-top: 150px;
@@ -168,9 +178,14 @@ src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halfl
   color: black;
   font-size: 1.5vw;
   padding: 50px;
-  margin-top:100px;
+ 
 }
-
+.gold{
+  color:  gold;
+}
+.silver{
+  color:  silver;
+}
 .panel-footer{
   background-color: black;
 
@@ -181,6 +196,10 @@ src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halfl
 #testimonials{
   font-style: italic;
   font-size: 0.85em;
+}
+
+.award-icon{
+  text-align:   center; 
 }
 /* MENU CATEGORIES PAGE */
 
@@ -241,7 +260,7 @@ src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halfl
   
  }
  .Education{
-  font-size: 3vw;
+  font-size: 4vw;
 
  }
  .myImage{
@@ -252,23 +271,22 @@ src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halfl
  }
  .speech1{
   margin-top: 50px;
-  font-size: 3.5vw;
+  font-size: 4vw;
   margin-top: 50px;
 
 }
 .whatTo{
-   font-size: 3vw;
-   margin-top: 50px;
-  }
-  .whatTo h1{
    font-size: 4vw;
    margin-top: 50px;
   }
-
-
+  .whatTo h1{
+   font-size: 5vw;
+   margin-top: 50px;
+  }
+ 
 
   .navbar-brand h1{
-    font-size: 6vw;
+    font-size: 7vw;
   }
 
    #collapsable-nav a span{
@@ -288,9 +306,10 @@ src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halfl
   }
   .centered {
   position: absolute;
-  top: 10%;
+top: 35%;
  
-  left: 20%;
+  left: 55%;
+  text-align:   left; 
   
 
 }
@@ -299,13 +318,13 @@ src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halfl
   color:  white;
   font-size: 6vw;
  
-  font-style: italic;
+ 
   text-align: center;
-
+ 
 }
 .awards{
-text-align: center;
-  font-size: 3.5vw;
+
+  font-size: 4vw;
  
 }
 .footer{
@@ -432,6 +451,9 @@ ul.social-icons {
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
+}
+.fa-instagram-square:hover{
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .fa-github {
     padding:10px 14px;
